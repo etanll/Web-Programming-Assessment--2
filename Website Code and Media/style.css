@@ -1,0 +1,1590 @@
+/*Homepage CSS*/
+
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+/*Dark light blue for the body color/whole site*/
+body {
+        background-color: #0c0e1d;
+    }
+
+
+
+/*Welcome section — background image takes whole section*/
+.welcome {
+        min-height: 1080px;
+        background-image: url("Earth4.png");
+        overflow-x: hidden;
+        background-size: 100% auto;
+        background-repeat: no-repeat; 
+        background-position: center -65px; 
+    }
+
+
+/*Main heading*/
+    main h1 {
+        font-size: 130px; 
+        margin-left: 45px;
+        margin-right: 30px;
+        margin-top: 50px;
+        text-align: left;
+        font-family: 'Orbitron'; 
+        color: #FFD900;
+    }
+
+/*P tag under the main heading*/
+    main p{
+        font-size: 40px; 
+        font-family: 'Orbitron';
+        text-align: left; 
+        color: white;
+        margin-left: 45px;   
+    }
+
+    
+
+/*Nav bar links no underline*/
+    header ul li a {
+        font-size: 30px; 
+        font-family: 'Orbitron';
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+        
+    }
+
+/*Yellow highlight when you hover your mouse over it*/
+    header ul li a:hover {
+    color: yellow; 
+    font-weight: bold; 
+    }
+    
+/*Nav bar — flex makes it horizontal*/
+nav ul {
+        list-style-type: none; 
+        display: flex; 
+        padding: 31px;
+        padding-left: 200px;
+        border-bottom: 3px solid #FFD900;  
+        background-color: #0c0f1d;
+        
+    }
+
+/*"EXPLORE" text in the first divider bar*/
+    #bar1 h1 {
+        font-size: 90px;
+        text-align: center; 
+        position: relative;
+        top: -150px; 
+    }
+
+/*Yellow highlight instead of the default*/
+    ::selection {
+    background-color: #FFD900; 
+    color: #16163C;
+    }
+    
+/* Yellow Games button on the homepage*/
+    #Home_games1 {
+        width: 260px; 
+        margin: 100px; 
+        margin-left: 50px;
+        font-family: 'Orbitron';
+        font-size: 30px;
+        height: 70px; 
+        font-weight: bold;
+        border-radius: 25px; 
+        background-color: #FFD900; 
+    }
+
+/*Yellow Showcase button beside the games button*/
+    #Home_showcase1 {
+        margin: 100px;
+        margin-left: -75px;
+        width: 300px; 
+        height: 70px; 
+        font-family: 'Orbitron';
+        font-weight: bold;
+        font-size: 30px;
+        border-radius: 25px;
+        background-color: #FFD900; 
+    }
+    
+/*Divider bar to separate .welcome from the content below*/
+.divider1 {
+    border: none; 
+    height: 200px; 
+    background: #16192c; 
+    margin: 0;
+    position: relative;
+    top: -120px;
+}
+
+/*Statistics for the player count inside the divider bar*/
+.divider1 #players  {
+    left: 2%; 
+    top: 50px;
+    font-size: 40px; 
+    font-family: 'Orbitron'; 
+    position: absolute; 
+    font-weight: bold;
+    color: #FFD900;
+}
+/*Statistic for the games count inside the divider bar*/
+.divider1 #Games {
+    left: 45%; 
+    top: 50px;
+    font-size: 40px;
+    font-family: 'Orbitron';
+    position: absolute; 
+    font-weight: bold;
+    color: #FFD900;
+}
+/*Statistics for the sales count inside the divider bar*/
+.divider1 #Sales {
+    right: 5%; 
+    top: 50px;
+    font-size: 40px;
+    font-family: 'Orbitron';
+    position: absolute; 
+    font-weight: bold;
+    color: #FFD900;
+}
+/*Kinetic Games logo*/
+.Logo {
+    width: 200px; 
+    height: auto;
+    top: -50px;
+    position: absolute; /*position is set to absolute so its beside the navigation bar*/
+}
+
+
+/*flex display sets the images to sit side by side*/
+.games {
+    display: flex; 
+    gap: 20px; 
+}
+
+/*Game card 1 image*/
+.game1 img {
+    width: 600px; 
+    height: 600px;
+    margin-left: 20px;
+    margin-top: -100px;
+    border-radius: 50px;
+    object-fit: cover; 
+    border-style: none; 
+}
+/*Game card 2 image*/
+.game2 img {
+    width: 600px;
+    height: 600px;
+    margin-left: 10px;
+    margin-top: -100px;
+    border-radius: 50px;
+    object-fit: cover; 
+    border-style: none; 
+}
+/*Game card 3 image*/
+.game3 img {
+    width: 600px;
+    height: 600px;
+    margin-left: 10px;
+    margin-top: -100px;
+    border-radius: 50px;
+    object-fit: cover; 
+    border-style: none; 
+}
+/*Game card 1 title*/
+.game1 h2{
+    color: white;
+    font-family: 'Orbitron'; 
+    text-align: center; 
+    font-size: 35px; 
+    margin-top: 20px;
+}
+/*Game card 2 title*/
+.game2 h2{
+    color: white;
+    font-family: 'Orbitron'; 
+    text-align: center; 
+    font-size: 35px;
+    margin-top: 20px;
+}
+
+/*Game card 3 title*/
+.game3 h2{
+    color: white; 
+    font-family: 'Orbitron'; 
+    text-align: center; 
+    font-size: 35px;
+    margin-top: 20px;
+
+}
+
+/*Second games button below the images*/
+#Home_games2{
+        width: 350px;
+        margin: 0px;
+        font-family: 'Orbitron';
+        font-size: 30px;
+        height: 70px;
+        font-weight: bold;
+        border-radius: 25px;
+        background-color: #FFD900;
+        white-space: nowrap; /*stops the button text from making two lines*/
+        margin-left: 800px;
+        top: 40px;
+}
+
+/*Showcase image on the homepage*/
+.show1 img{ 
+    width: 900px;
+    height: 500px; 
+    margin-left: 20px;
+    margin-top: -20px;
+    border-radius: 50px;
+    object-fit: cover; 
+    border-width: 0px;
+    border-style: solid;
+    position: relative; 
+    top: 150px;
+}
+
+/*Showcase heading - Made more to the right*/
+.show1 h1{
+    font-size: 40px;  
+    color: #FFD900; 
+    font-family: 'Orbitron';
+    margin-left: 1000px; 
+    margin-top: -350px; 
+}
+
+/*Showcase text paragraph*/
+.show1 p{
+   font-size: 30px; 
+    color: white;
+    font-family: 'Orbitron';
+    margin-left: 1000px; 
+    margin-top: 10px; 
+}
+
+/*Showcase sub heading*/
+.show1 h2{
+    font-size: 70px;  
+    color: white;
+    font-family: 'Orbitron';
+    margin-left: 1000px; 
+    margin-top: 0px; 
+}
+
+/*Second showcase button beside the image card and below the text*/
+#Showcasepage_2{
+        width: 430px; 
+        font-family: 'Orbitron';
+        font-size: 30px;
+        height: 70px;  
+        font-weight: bold; 
+        border-radius: 25px;
+        background-color: #FFD900;
+        white-space: nowrap; 
+        margin-left: 1000px; 
+        margin-top: 45px; 
+    
+}
+
+/*About section main heading*/
+.about_p h1{
+    font-size: 50px; 
+    color: #FFD900;
+    font-family: 'Orbitron';
+    text-align: center; 
+    margin-top: 300px; 
+}
+ 
+/*About section sub heading*/
+.about_p h2{
+  font-size: 80px; 
+    color: white;
+    font-family: 'Orbitron';
+    text-align: center; 
+    margin-top: 25px;
+}
+/*About section paragraph*/
+.about_p p{
+  font-size: 30px; 
+    color: white;
+    font-family: 'Orbitron';
+    text-align: center; 
+    margin-top: 30px; 
+}
+
+/*About button on the homepage*/
+#About_1{
+        width: 350px; 
+        font-family: 'Orbitron';
+        font-size: 30px;
+        height: 70px; 
+        font-weight: bold;
+        border-radius: 25px;
+        background-color: #FFD900;
+        white-space: nowrap; /*keeps button text on one line*/
+        margin-left: 800px;
+        margin-top: 45px;
+    
+}
+
+/*Divider between About section and footer - Used in homepage and aboutpage*/
+.divider2 {
+    border: none;
+    height: 300px;
+    background: #16192c;
+    margin: 0;
+    position: relative;
+    top: 300px;
+    
+}
+/*Same divider but used in gamespage, showcasepage, and reviewspage*/
+.divider2G {
+    border: none;
+    height: 300px;
+    background: #16192c;
+    margin: 0;
+    position: relative;
+    top: 300px;
+    
+}
+
+
+
+
+
+/*Divider 2 paragraph text*/
+.divider2 p{
+    font-size: 20px;
+    font-family: 'Orbitron';
+    position: relative;
+    top: 100px;
+
+}
+/*Divider 2G paragraph text*/
+.divider2G p{
+    font-size: 20px;
+    color: white;
+    margin-left: 45px;
+    font-family: 'Orbitron';
+    position: relative;
+    top: 100px;
+
+}
+
+/*Small logo divider2 and divider2G*/
+.Logo1 {
+    width: 150px;
+    height: auto;
+    position: absolute;
+    left: 30px;
+    margin-top: -20px;
+}
+/*Footer nav labels for Homepage and Aboutpage*/
+#nav1, #nav5{
+    color: #FFD900;            
+    font-family: 'Orbitron';   
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    top: -55px;
+}
+
+/*Footer nav labels for gamespage, showcasepage, and reviewspage*/
+ #nav2, #nav3, #nav4{
+    color: #FFD900;            
+    font-family: 'Orbitron';   
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    top: -5px;
+}
+
+/*divider2 nav on right side*/
+.divider2 nav ul{
+    list-style: none;
+    flex-direction: column;
+    border-bottom: 2px solid #16192c;
+    background-color: #16192c;
+    margin-left: 695px; 
+    margin-top: -70px;
+    gap: 20px;
+    
+}
+/*divider2G nav on right side*/
+.divider2G nav ul{
+    list-style: none;
+    flex-direction: column;
+    border-bottom: 2px solid #16192c;
+    background-color: #16192c;
+    margin-left: 690px; 
+    margin-top: -10px;
+    gap: 20px;
+    
+}
+
+
+/*divider2 nav text color and font*/
+.divider2 nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Orbitron'
+}
+/*divider2G nav text color and font*/
+.divider2G nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Orbitron'
+}
+
+
+
+
+/*divider2 nav hover*/
+.divider2 ul li a:hover {
+    color: yellow;
+    font-family: 'Orbitron';
+    font-weight: bold;
+    }
+
+/*divider2G nav hover*/
+    .divider2G ul li a:hover {
+    color: yellow;
+    font-family: 'Orbitron';
+    font-weight: bold;
+    }
+
+
+/*Footer bar*/
+.divider3 {
+   border: none;
+    height: 40px;
+    background: yellow;
+    margin: 0;
+    position: relative;
+    top: 300px;
+}
+
+/*Footer bar with kinetic games text*/
+.divider3 footer{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Orbitron';
+    position: relative;
+    top: 5px;
+    font-weight: bold;
+}
+
+
+
+
+/*HOMEPAGE for smaller laptop screens*/
+@media (max-width: 1280px) {
+    /*Smaller main heading*/
+    main h1 {
+        font-size: 110px;
+    }
+    /*Smaller p text*/
+    main p{
+        font-size: 30px;
+    }
+    /*moves divider further*/
+    .divider1 {
+    margin-top: -325px;
+    }
+    /*removes horizontal scroll on smaller screens*/
+    body{
+        overflow-x: hidden;
+    }
+    /*Explore heading is repositioned for smaller screens*/
+    #bar1 h1 {
+        font-size: 60px;
+        text-align: left;
+        top: 910px;
+        position: absolute;
+        left: 480px;
+    }
+    /*Smaller Games button for laptop screens*/
+    #Home_games {
+        width: 200px;
+        margin: 100px;
+        margin: 45px;
+        margin-top: 40px;
+        position: absolute;
+        font-family: 'Geist Mono';
+        font-size: 30px;
+        height: 60px;
+        font-weight: bold;
+        border-radius: 25px;
+        background-color: #FFD900;
+    }
+    /*Smaller Showcase button beside the games button*/
+    #Home_showcase {
+        margin: 100px;
+        margin-left: 270px;
+        width: 200px;
+        height: 60px;
+        margin-top: 40px;
+        font-family: 'Geist Mono';
+        font-weight: bold;
+        font-size: 30px;
+        border-radius: 25px;
+        background-color: #FFD900;
+    }
+    /*background image is repositioned for laptop screens*/
+    .welcome {
+        min-height: 1080px;
+        background-image: url("Earth4.png");
+        overflow-x: hidden;
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        background-position: center -45px;
+    }
+
+    /*Game cards are resized for smaller screens*/
+    .games {
+    display: flex;
+    gap: 20px;
+}
+
+/*Smaller game card 1 image*/
+.game1 img {
+    width: 400px;
+    height: 400px;
+    margin-left: 20px;
+    margin-top: 50px;
+    border-radius: 50px;
+    object-fit: cover;
+    border-width: 0px;
+    border-style: solid;
+}
+/*Smaller game card 2 image*/
+.game2 img {
+    width: 400px;
+    height: 400px;
+    margin-left: 10px;
+    margin-top: 50px;
+    border-radius: 50px;
+    object-fit: cover;
+    border-width: 0px;
+    border-style: solid;
+}
+/*Smaller game card 3 image*/
+.game3 img {
+    width: 400px;
+    height: 400px;
+    margin-left: 10px;
+    margin-top: 50px;
+    border-radius: 50px;
+    object-fit: cover;
+    border-width: 0px;
+    border-style: solid;
+}
+/*Smaller game card 1 title*/
+.game1 h2{
+    color: white;
+    font-family: 'Orbitron';
+    text-align: center;
+    font-size: 25px;
+    margin-top: 20px;
+
+}
+/*Smaller game card 2 title*/
+.game2 h2{
+    color: white;
+    font-family: 'Orbitron';
+    text-align: center;
+    font-size: 25px;
+    margin-top: 20px;
+
+}
+
+/*Smaller game card 3 title*/
+.game3 h2{
+    color: white;
+    font-family: 'Orbitron';
+    text-align: center;
+    font-size: 25px;
+    margin-top: 20px;
+
+}
+/*Smaller and repositioned Games button which is centered below the cards*/
+#Home_games1{
+        width: 330px;
+        margin: 0px;
+        font-family: 'Orbitron';
+        font-size: 25px;
+        height: 50px;
+        font-weight: bold;
+        border-radius: 25px;
+        background-color: #FFD900;
+        white-space: nowrap;
+        margin-left: 500px;
+        position: absolute;
+        top: 1610px;
+
+}
+
+/*Showcase section resized for smaller screens*/
+.show1 img{
+    width: 600px;
+    height: 400px;
+    margin-left: 20px;
+    margin-top: 50px;
+    border-radius: 50px;
+    object-fit: cover;
+    border-width: 0px;
+    border-style: solid;
+    position: relative;
+    top: 150px;
+}
+/*Showcase heading is moved to the left for smaller screens*/
+    .show1 h1{
+    font-size: 30px;
+    color: #FFD900;
+    font-family: 'Orbitron';
+    margin-left: 650px;
+    margin-top: -250px;
+}
+/*Showcase paragraph for smaller screen*/
+.show1 p{
+   font-size: 30px;
+    color: white;
+    font-family: 'Orbitron';
+    margin-left: 650px;
+    margin-top: 10px;
+}
+
+/*Showcase sub heading for smaller screen*/
+.show1 h2{
+    font-size: 40px;
+    color: white;
+    font-family: 'Orbitron';
+    margin-left: 650px;
+    margin-top: 0px;
+}
+/*Smaller Showcase page button*/
+#Showcasepage_1{
+        width: 330px;
+        font-family: 'Orbitron';
+        font-size: 25px;
+        height: 50px;
+        font-weight: bold;
+        border-radius: 25px;
+        background-color: #FFD900;
+        white-space: nowrap;
+        margin-left: 650px;
+        margin-top: 35px;
+    
+}
+
+/*About section is resized for smaller screens*/
+.about_p h1{
+    font-size: 40px;
+    color: #FFD900;
+    font-family: 'Orbitron';
+    text-align: center;
+    margin-top: 300px;
+}
+/*About sub heading for smaller screen*/
+.about_p h2{
+  font-size: 60px;
+    color: white;
+    font-family: 'Orbitron';
+    text-align: center;
+    margin-top: 25px;
+}
+/*About paragraph for smaller screen*/
+.about_p p{
+  font-size: 25px;
+    color: white;
+    font-family: 'Orbitron';
+    text-align: center;
+    margin-top: 30px;
+}
+
+/*Smaller About button repositioned to fit smaller screen*/
+#About_1{
+        width: 350px;
+        font-family: 'Orbitron';
+        font-size: 30px;
+        height: 70px;
+        font-weight: bold;
+        border-radius: 25px;
+        background-color: #FFD900;
+        white-space: nowrap;
+        margin-left: 485px;
+        margin-top: 45px;
+    
+}
+
+/*divider2 nav repositioned for smaller screens*/
+.divider2 nav ul{
+    list-style: none;
+    flex-direction: column;
+    border-bottom: 2px solid #16192c;
+    background-color: #16192c;
+    margin-left: 381px; 
+    margin-top: -70px;
+    gap: 20px;
+    
+}
+/*divider2G nav is repositioned for smaller screens for gamespage, showcasepage, reviewspage*/
+.divider2G nav ul{
+    list-style: none;
+    flex-direction: column;
+    border-bottom: 2px solid #16192c;
+    background-color: #16192c;
+    margin-left: 375px; 
+    margin-top: -10px;
+    gap: 20px;
+    
+}
+
+
+
+
+
+}
+
+
+
+/*GAMES PAGE*/
+/*Main heding - Games"*/
+#bar1games h1 {
+        font-size: 90px;
+        font-family: 'Orbitron';
+        color: #FFD900;
+        text-align: center;
+        position: relative;
+        top: 50px;
+    }
+
+
+/*Flex display for the game card to sit side by side*/
+.games_page1, .games_page2, .games_page3 {
+    display: flex;
+    gap: 20px;
+}
+
+
+
+/*Game card 1 image on the games page*/
+.gamepage1 img {
+    width: 600px;
+    height: 600px;
+    margin-left: 20px;
+    margin-top: 100px;
+    border-radius: 50px;
+    object-fit: cover;
+    border-width: 0px;
+    border-style: solid;
+}
+/*Game card 2 image on the games page*/
+.gamepage2 img {
+    width: 600px;
+    height: 600px;
+    margin-left: 10px;
+    margin-top: 100px;
+    border-radius: 50px;
+    object-fit: cover;
+    border-width: 0px;
+    border-style: solid;
+}
+/*Game card 3 image on the games page*/
+.gamepage3 img {
+    width: 600px;
+    height: 600px;
+    margin-left: 10px;
+    margin-top: 100px;
+    border-radius: 50px;
+    object-fit: cover;
+    border-width: 0px;
+    border-style: solid;
+}
+
+
+/*Game card 1 on the games page title*/
+.gamepage1 h2{
+    color: white;
+    font-family: 'Orbitron';
+    text-align: center;
+    font-size: 35px;
+    margin-top: 20px;
+
+}
+/*Game card 2 on the games page title*/
+.gamepage2 h2{
+    color: white;
+    font-family: 'Orbitron';
+    text-align: center;
+    font-size: 35px;
+    margin-top: 20px;
+
+}
+
+/*Game card 3 on the games page title*/
+.gamepage3 h2{
+    color: white;
+    font-family: 'Orbitron';
+    text-align: center;
+    font-size: 35px;
+    margin-top: 20px;
+
+}
+
+
+/*Games page smaller laptop screens*/
+@media (max-width: 1280px){
+    /*Smaller game card 1 image*/
+    .gamepage1 img {
+    width: 400px;
+    height: 500px;
+    margin-left: 20px;
+    margin-top: 100px;
+    border-radius: 50px;
+    object-fit: cover;
+    border-width: 0px;
+    border-style: solid;
+}
+/*Smaller game card 2 image*/
+.gamepage2 img {
+    width: 400px;
+    height: 500px;
+    margin-left: 10px;
+    margin-top: 100px;
+    border-radius: 50px;
+    object-fit: cover;
+    border-width: 0px;
+    border-style: solid;
+}
+/*Smaller game card 3 image*/
+.gamepage3 img {
+    width: 400px;
+    height: 500px;
+    margin-left: 10px;
+    margin-top: 100px;
+    border-radius: 50px;
+    object-fit: cover;
+    border-width: 0px;
+    border-style: solid;
+}
+/*Smaller game card 1 title*/
+.gamepage1 h2{
+    color: white;
+    font-family: 'Orbitron';
+    text-align: center;
+    font-size: 25px;
+    margin-top: 20px;
+
+}
+/*Smaller game card 2 title*/
+.gamepage2 h2{
+    color: white;
+    font-family: 'Orbitron';
+    text-align: center;
+    font-size: 25px;
+    margin-top: 20px;
+
+}
+
+/*Smaller game card 3 title*/
+.gamepage3 h2{
+    color: white;
+    font-family: 'Orbitron';
+    text-align: center;
+    font-size: 25px;
+    margin-top: 20px;
+
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*SHOWCASE PAGE*/
+
+/*Flex display for showcase text is beside the images*/
+.showcasegame_1 {
+    display: flex;
+}
+/*Showcase page title*/
+#bar1show h1 {
+        font-size: 90px;
+        font-family: 'Orbitron';
+        color: #FFD900;
+        text-align: center;
+        position: relative;
+        top: 50px;
+    }
+
+
+/*Showcase image 1*/
+.show_1 img{
+    width: 900px;
+    height: 500px;
+    margin-left: 20px;
+    margin-top: 100px;
+    border-radius: 50px;
+    object-fit: cover;
+    border-width: 0px;
+    border-style: solid;
+    position: relative;
+    top: 50px;
+}
+/*Showcase image 2*/
+.show_2 img{
+    width: 900px;
+    height: 500px;
+    margin-left: 1000px;
+    margin-top: 500px;
+    border-radius: 50px;
+    object-fit: cover;
+    border-width: 0px;
+    border-style: solid;
+    position: relative;
+    top: 150px;
+}
+
+/*Showcase image 3*/
+.show_3 img{
+    width: 900px;
+    height: 500px;
+    margin-left: 20px;
+    margin-top: 500px;
+    border-radius: 50px;
+    object-fit: cover;
+    border-width: 0px;
+    border-style: solid;
+    position: relative;
+    top: 50px;
+}
+/*Showcase image 4*/
+.show_4 img{
+    width: 900px;
+    height: 500px;
+    margin-left: 1000px;
+    margin-top: 500px;
+    border-radius: 50px;
+    object-fit: cover;
+    border-width: 0px;
+    border-style: solid;
+    position: relative;
+    top: 150px;
+}
+
+/*Showcase card 1 text heading*/
+.showcasegame_1 h1{
+    font-size: 30px;
+    text-align: center;
+    color: #FFD900;
+    font-family: 'Orbitron';
+    margin-left: 1000px;
+    margin-top: -400px;
+}
+/*Showcase card 1 text sub heading*/
+.showcasegame_1 h2{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    font-family: 'Orbitron';
+    margin-left: 1000px;
+    margin-top: 10px;
+}
+/*Showcase card 1 text paragraph*/
+.showcasegame_1 p{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    font-family: 'Orbitron';
+    margin-left: 1000px;
+    margin-top: 10px;
+}
+
+/*Showcase card 2 text heading*/
+.showcasegame_2 h1{
+    text-align: center;
+    font-size: 30px;
+    color: #FFD900;
+    font-family: 'Orbitron';
+    margin-left: -1000px;
+    margin-top: -300px;
+}
+/*Showcase card 2 text sub heading*/
+.showcasegame_2 h2{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    font-family: 'Orbitron';
+    margin-left: -1000px;
+    margin-top: 10px;
+}
+/*Showcase card 2 text paragraph*/
+.showcasegame_2 p{
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    font-family: 'Orbitron';
+    margin-left: -1000px;
+    margin-top: 10px;
+}
+/*Showcase card 3 text heading*/
+.showcasegame_3 h1{
+    font-size: 30px;
+    text-align: center;
+    color: #FFD900;
+    font-family: 'Orbitron';
+    margin-left: 1000px;
+    margin-top: -400px;
+}
+/*Showcase card 3 text sub heading*/
+.showcasegame_3 h2{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    font-family: 'Orbitron';
+    margin-left: 1000px;
+    margin-top: -10px;
+}
+/*Showcase card 3 text paragraph*/
+.showcasegame_3 p{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    font-family: 'Orbitron';
+    margin-left: 1000px;
+    margin-top: 10px;
+}
+
+/*Showcase card 4 text heading*/
+.showcasegame_4 h1{
+    text-align: center;
+    font-size: 30px;
+    color: #FFD900;
+    font-family: 'Orbitron';
+    margin-left: -900px;
+    margin-top: -300px;
+}
+/*Showcase card 4 text sub heading*/
+.showcasegame_4 h2{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    font-family: 'Orbitron';
+    margin-left: -900px;
+    margin-top: 10px;
+}
+/*Showcase card 4 text paragraph*/
+.showcasegame_4 p{
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    font-family: 'Orbitron';
+    margin-left: -900px;
+    margin-top: 10px;
+}
+
+/*Showcase page for smaller laptop screens*/
+@media (max-width: 1280px){
+    /*Keeps flex deisplay to display side by side on smaller screens*/
+    .showcasegame_1 {
+    display: flex;
+}
+    /*Showcase title are the same on smaller screens*/
+#bar1show h1 {
+        font-size: 90px;
+        font-family: 'Orbitron';
+        color: #FFD900;
+        text-align: center;
+        position: relative;
+        top: 50px;
+    }
+
+    /*Smaller showcase image 1*/
+.show_1 img{
+    width: 600px;
+    height: 400px;
+    margin-left: 20px;
+    margin-top: 100px;
+    border-radius: 50px;
+    object-fit: cover;
+    border-width: 0px;
+    border-style: solid;
+    position: relative;
+    top: 50px;
+}
+    /*Smaller showcase image 2*/
+.show_2 img{
+    width: 600px;
+    height: 400px;
+    margin-left: 640px;
+    margin-top: 500px;
+    border-radius: 50px;
+    object-fit: cover;
+    border-width: 0px;
+    border-style: solid;
+    position: relative;
+    top: 150px;
+}
+
+    /*Smaller showcase image 3*/
+.show_3 img{
+    width: 600px;
+    height: 400px;
+    margin-left: 20px;
+    margin-top: 500px;
+    border-radius: 50px;
+    object-fit: cover;
+    border-width: 0px;
+    border-style: solid;
+    position: relative;
+    top: 50px;
+}
+    /*Smaller showcase image 4*/
+.show_4 img{
+    width: 600px;
+    height: 400px;
+    margin-left: 640px;
+    margin-top: 500px;
+    border-radius: 50px;
+    object-fit: cover;
+    border-width: 0px;
+    border-style: solid;
+    position: relative;
+    top: 150px;
+}
+    /*Smaller showcase card 1 heading*/
+.showcasegame_1 h1{
+    font-size: 30px;
+    text-align: center;
+    color: #FFD900;
+    font-family: 'Orbitron';
+    margin-left: 650px;
+    margin-top: -250px;
+}
+    /*Smaller showcase card 1 sub heading*/
+.showcasegame_1 h2{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    font-family: 'Orbitron';
+    margin-left: 650px;
+    margin-top: 10px;
+}
+    /*Smaller showcase card 1 paragraph*/
+.showcasegame_1 p{
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    font-family: 'Orbitron';
+    margin-left: 650px;
+    margin-top: 10px;
+}
+
+    /*Smaller showcase card 2 heading*/
+.showcasegame_2 h1{
+    font-size: 30px;
+    text-align: center;
+    color: #FFD900;
+    font-family: 'Orbitron';
+    margin-left: -650px;
+    margin-top: -150px;
+}
+
+    /*Smaller showcase card 2 sub heading*/
+.showcasegame_2 h2{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    font-family: 'Orbitron';
+    margin-left: -650px;
+    margin-top: 10px;
+}
+    /*Smaller showcase card 2 paragraph*/
+.showcasegame_2 p{
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    font-family: 'Orbitron';
+    margin-left: -650px;
+    margin-top: 10px;
+}
+    /*Smaller showcase card 3 heading*/
+.showcasegame_3 h1{
+    font-size: 30px;
+    text-align: center;
+    color: #FFD900;
+    font-family: 'Orbitron';
+    margin-left: 650px;
+    margin-top: -250px;
+}
+    /*Smaller showcase card 3 sub heading*/
+.showcasegame_3 h2{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    font-family: 'Orbitron';
+    margin-left: 650px;
+    margin-top: -10px;
+}
+    /*Smaller showcase card 3 paragraph*/
+.showcasegame_3 p{
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    font-family: 'Orbitron';
+    margin-left: 650px;
+    margin-top: 10px;
+}
+    /*Smaller showcase card 4 heading*/
+.showcasegame_4 h1{
+    text-align: center;
+    font-size: 30px;
+    color: #FFD900;
+    font-family: 'Orbitron';
+    margin-left: -650px;
+    margin-top: -150px;
+}
+    /*Smaller showcase card 4 sub heading*/
+.showcasegame_4 h2{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    font-family: 'Orbitron';
+    margin-left: -650px;
+    margin-top: 10px;
+}
+    /*Smaller showcase card 4 paragraph*/
+.showcasegame_4 p{
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    font-family: 'Orbitron';
+    margin-left: -650px;
+    margin-top: 10px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+/*REVIEWS PAGE*/
+
+/*Page title Reviews*/
+.review1 h1{
+    color: #FFD900;
+    text-align: center;
+    font-size: 90px;
+    font-family: 'Orbitron';
+}
+
+/*Review cards flexed display to be side by side*/
+.card_rev1, .card_rev5{
+  display: flex;      
+  gap: 50px;          
+  justify-content: center; 
+  margin-left: 45px;
+  padding-top: 130px;
+  margin-right: 30px;
+}
+
+/*Review cards headings*/
+.card_rev1 h1{
+    color: white;
+    font-family: 'Orbitron';
+    font-size: 40px;
+}
+
+.card_rev5 h1{
+    color: white;
+    font-family: 'Orbitron';
+    font-size: 40px;
+}
+
+/*Review cards yellow paragraph text*/
+.card_rev1 p{
+    color:#FFD900;
+    font-family: 'Geist Mono';
+    font-size: 30px;
+}
+
+.card_rev5 p{
+    color:#FFD900;
+    font-family: 'Geist Mono';
+    font-size: 30px;
+}
+/*Reviews page — smaller laptop screens*/
+@media (max-width: 1280px){
+    /*Review title for smaller screens*/
+    .review1 h1{
+    color: #FFD900;
+    text-align: center;
+    font-size: 90px;
+    font-family: 'Orbitron';
+}
+    /*Review cards keeps the same layout*/
+.card_rev1, .card_rev5{
+  display: flex;      
+  gap: 50px;          
+  justify-content: center; 
+  margin-left: 45px;
+  padding-top: 130px;
+  margin-right: 30px;
+}
+    /*Smaller review card heading*/
+    .card_rev1 h1{
+    color: white;
+    font-size: 30px;
+}
+    /*Smaller review card heading*/
+.card_rev5 h1{
+    color: white;
+    font-family: 'Orbitron';
+    font-size: 30px;
+}
+
+/*Smaller review cards*/
+.card_rev1 p{
+    color:#FFD900;
+    font-family: 'Geist Mono';
+    font-size: 25px;
+}
+
+.card_rev5 p{
+    color:#FFD900;
+    font-family: 'Geist Mono';
+    font-size: 25px;
+}
+}
+
+
+
+
+
+
+
+/*ABOUT PAGE*/
+
+/*Sets the height for the about section*/
+.about{
+    height: 300px;
+}
+/*About Us main heading*/
+.about h1 {
+    font-size: 100px;
+        margin-left: 45px;
+        margin-right: 30px;
+        margin-top: 50px;
+        text-align: center;
+        font-family: 'Orbitron';
+        color: #FFD900;
+    
+}
+/*Sub heading on the about page*/
+.about h2 {
+    font-size: 50px;
+        font-family: 'Orbitron';
+        text-align: center;
+        color: white;
+        margin-left: 45px;
+        margin-top: 80px;
+    
+}
+/*About page paragraph text*/
+.about p {
+    font-size: 30px;
+        font-family: 'Orbitron';
+        text-align: center;
+        color: white;
+        margin-left: 45px;
+        margin-top: 40px;
+}
+
+
+/*First divider on the about page*/
+.divider1AB {
+     border: none;
+    height: 820px;
+    background: #16192c;
+    margin: 100;
+    position: relative;
+    top: 500px;
+    
+    
+}
+/*Divider1AB sub headings*/
+ .divider1AB h2{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 30px;
+}
+/*Divider1AB headings*/
+.divider1AB h1{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 30px;
+}
+/*"Meet our team heading inside divider2AB*/
+.divider2AB h1{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+/*flex row centered*/
+.card_abtT{
+  display: flex;      
+  gap: 20px;          
+  justify-content: center; 
+  margin-left: 45px;
+  padding-top: 40px;
+  margin-right: 30px;
+}
+
+
+/*card headings*/
+.card_abtT h1{
+  display: flex;   
+  font-size: 30px;   
+  gap: 10px;          
+  justify-content: left; 
+}
+/*card descriptions*/
+.card_abtT p{
+  display: flex;   
+  font-size: 20px;   
+  gap: 10px;          
+  justify-content: left; 
+}
+/*Team member cards with flex display for horizontal*/
+.card_abtTT{
+  display: flex;      
+  gap: 100px;          
+  justify-content: center; 
+  margin-left: 45px;
+  padding-top: 40px;
+  margin-right: 30px;
+}
+
+
+/*Team member names*/
+.card_abtTT h1{
+  display: flex;   
+  font-size: 30px;   
+  gap: 10px;          
+  justify-content: left; 
+}
+/*Team member roles*/
+.card_abtTT p{
+  display: flex;   
+  font-size: 20px;   
+  gap: 10px;          
+  justify-content: left; 
+}
+
+/*Heading for meet our team section*/
+.divider1AB h2{
+    font-size: 50px;
+    margin-left: 40px;
+    padding-top: 0px;
+    font-family: 'Orbitron';
+    color:  white;
+}
+/*Second divider for Our Values section*/
+.divider2AB {
+     border: none;
+    height: 500px;
+    background: #0c0e1d;
+    margin: 0;
+    position: relative;
+    top: 200px;
+}
+
+/*About page for smaller laptop screens*/
+@media (max-width: 1280px){
+    /*Smaller About Us heading*/
+    .about h1 {
+    font-size: 80px;
+        margin-left: 45px;
+        margin-right: 30px;
+        margin-top: 50px;
+        text-align: center;
+        font-family: 'Orbitron';
+        color: #FFD900;
+    
+}
+    /*Smaller about sub heading*/
+.about h2 {
+    font-size: 40px;
+        font-family: 'Orbitron';
+        text-align: center;
+        color: white;
+        margin-left: 45px;
+        margin-top: 80px;
+    
+}
+    /*Smaller about paragraph*/
+.about p {
+    font-size: 25px;
+        font-family: 'Orbitron';
+        text-align: center;
+        color: white;
+        margin-left: 45px;
+        margin-top: 40px;
+}
+
+    /*left-aligned on smaller screens*/
+.card_abtT{
+  display: flex;      
+  gap: 20px;          
+  justify-content: left; 
+  
+  margin-left: 45px;
+  padding-top: 40px;
+  margin-right: 30px;
+}
+
+    /*Smaller card_abtT h1*/
+.card_abtT h1{
+  display: flex;   
+  font-size: 23px;   
+  text-align: left;
+  gap: 10px;          
+  justify-content: left; 
+}
+   /*Smaller card_abtT p*/
+.card_abtT p{
+  display: flex;   
+  font-size: 15px;   
+  gap: 10px;          
+  justify-content: left; 
+}
+}
